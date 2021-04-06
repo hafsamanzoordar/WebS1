@@ -1,0 +1,219 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            .main-line{
+                padding-left: 100px;
+                padding-top: 6;
+                padding-bottom: 17px;
+                font-family: sans-serif;
+                color: white;
+                font-size: large;
+            }
+            img {
+    width: 67;
+    max-width: 100%;
+    height: 90;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: normal;
+    vertical-align: left;
+}
+            .myDiv {
+                /* border: 5px outset: blue; */
+                background-color: rgb(0, 51, 102);
+                text-align: horizontal;
+            }
+            img {
+                position: absolute;
+                left: 0px;
+                top: 50px;
+                margin-left: 90px;
+                z-index: -1;
+                }
+                
+            .button {
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin-top: 30px;
+                /* margin: left 200px; */
+            }
+            .button1 {
+                padding: 10px;
+                background-color: #0b8b10;
+                margin-left: 870px;
+                font-family: sans-serif;
+                font-weight: bold;
+                border-radius: 3px;
+            }
+            /* Green */
+            .button2 {
+                padding: 10px;
+                background-color: #9e1717;
+                margin-left: 2px;
+                font-weight: bold;
+                border-radius: 3px;
+                /* margin-right: 40px; */
+            }
+            /* Red */
+            .navbar ul {
+                overflow: auto;
+                font-size: 10px;
+            }
+            .navbar li{
+                float: left;
+                list-style: none;
+                margin: 0px;
+                font-size: 10px;
+
+            }
+            .navbar{
+                background-color:  rgb(0, 51, 102);
+                border-radius: 15px;
+                color: darkslategrey;
+                font-size: 10px;
+                margin: 20px;
+                margin-left: 2%;
+            }
+            .navbar li a {
+                display: inline;
+                padding: 3px 3px;
+                text-decoration: none;
+                color: white;
+                font-size: 14px;
+                font-weight: 200;
+                
+                
+            }
+            body {
+                background-color: white;
+            }
+            h2 {
+                color:  #179c1b;
+                text-align: left ;
+                padding-left: 15px;
+                
+            }
+            p {
+                color: rgb(10, 10, 10);
+                text-align: justify;
+                display: block;
+                width: 70%;
+                padding-left: 15px;
+                font-size: 20px;
+    
+            }
+            a:link{
+                padding: 15px;
+                text-decoration: transparent;
+                margin: 20px;
+                font-size:20 ;
+                
+            }
+            
+            
+               
+            .left-container{
+                width: 75%;
+                margin: 10%;
+                margin-top: 50px;
+                font-family: 'Poppins', sans-serif;
+                background-color: rgb(0, 51, 102);
+                
+            }
+
+            .left-container h2{
+                font-size: 20px;
+                color: white
+            }
+
+            .left-container p{
+                font-size: 15px;
+                color: #3a3a3a;
+    font-weight: 500;
+            }
+                
+            .right-container{
+                margin-left: 80%;
+                position: relative;
+                margin-top: -40%;
+                
+            }
+            .right-container a{
+                padding-left: 0px;
+                color: red;
+                text-align: left;
+               
+            }
+            
+            
+            
+        </style>
+    </head>
+
+    <body style="margin-top: 0px; margin-left: 0px; margin-right: 0px;">
+
+        <div class="myDiv">
+            
+        <h2 class="main-line">University of the Punjab
+        
+        <!-- <p>This is some text in a div element.</p> -->
+        
+        </div>
+        <img src=""http://pu.edu.pk/images/banner/ZOOM-.jpg" alt="">
+        
+        <hr style="margin-top: 40px; color: lightslategray;">
+        
+          
+      <nav class="navbar">
+          
+          <ul>
+        <li><a href="http://pu.edu.pk/home/index">Main Page</a></li>
+
+        <li><a href="http://pu.edu.pk/home/index">Academics</a></li>
+
+        <li><a href="http://pu.edu.pk/page/facility/campuslife.html">Campus Life</a></li>
+
+        <li><a href="http://pu.edu.pk/careers/">Careers</a></li>
+
+        <li><a href="http://pu.edu.pk/page/show/research-publications.html">Research</a></li>
+
+        <li><a href="http://pu.edu.pk/home/more/4">Admission</a></li>
+
+        <li><a href="http://pu.edu.pk/home/more/2">Examination</a></li>
+
+        <li><a href="http://pu.edu.pk/page/downloads">Downloads</a></li>
+
+        <li><a href="http://pu.edu.pk/page/show/rti.html">RTI</a></li>
+    </ul>
+
+</nav>
+
+<hr style="margin-top: 20px; color: lightslategray;">
+        <div class="left-container">
+      
+        
+        <div class="left-container">
+            <h2>Academics</h2>
+            
+            
+            <a href= " http://pu.edu.pk/departments/">Departments </a><br>
+            <a href="http://pu.edu.pk/program">Programs </a><br>
+            <a href=" http://pu.edu.pk/page/show/scholarships2.html">Scholarships  </a><br>
+            <a href="http://pu.edu.pk/affiliation">Affiliated Colleges </a><br>
+            <a href="http://pu.edu.pk/page/detail/HEC-Approved-Supervisors.html ">HEC Approved Supervisors </a><br>
+            
+        </div>
+        </div>
+
+
+
+    </body>
+    </html>
+</DOCTYPE>
