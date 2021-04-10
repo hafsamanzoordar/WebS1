@@ -1,1 +1,1 @@
-< ?php include_once('./weblabs1.html')?>
+<?php include_once './weblabs1.html'?>
